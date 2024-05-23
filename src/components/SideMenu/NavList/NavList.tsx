@@ -12,19 +12,19 @@ const NavList = () => {
   const NavList: NavItemType[] = [
     {
       id: 1,
-      label: "All Tasks",
+      label: "一覧",
       link: "/",
       icon: <FaTasks className="size-5" />,
     },
     {
       id: 2,
-      label: "Completed Tasks",
+      label: "保守1年以内",
       link: "/completed",
       icon: <FaRegCheckSquare className="size-5" />,
     },
     {
       id: 3,
-      label: " Expired Tasks",
+      label: "保守期限切れ",
       link: "/expired",
       icon: <FaRegClock className="size-5" />,
     },
