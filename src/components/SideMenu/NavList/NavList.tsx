@@ -18,13 +18,13 @@ const NavList = () => {
     },
     {
       id: 2,
-      label: "保守1年以内",
+      label: "完了済み",
       link: "/completed",
       icon: <FaRegCheckSquare className="size-5" />,
     },
     {
       id: 3,
-      label: "保守期限切れ",
+      label: "期限切れ",
       link: "/expired",
       icon: <FaRegClock className="size-5" />,
     },
